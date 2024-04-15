@@ -1,0 +1,28 @@
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.registrationBtn {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.registrationBtn:hover,
+.registrationBtn:focus {
+  background-color: rgb(158, 114, 206);
+}

@@ -1,0 +1,13 @@
+.listItem {
+  width: 100%;
+}
+
+.item {
+  border-radius: 8px;
+  background: rgb(193, 174, 213);
+  padding: 20px;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  border: none;
+}
